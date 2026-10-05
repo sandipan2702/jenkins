@@ -7,15 +7,15 @@ stages{
 stage('Build'){
 steps{
 echo "Building the app"
-sh 'echo"Build running on-"'
+sh 'echo "Build running on-"'
 sh 'hostname'
 }
 }
 
 stage('Test'){
 steps{
-echo"Testing"
-sh 'echo"Tests ran successfully"'
+echo "Testing"
+sh 'echo "Tests ran successfully"'
 }
 }
 
